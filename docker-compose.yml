@@ -3,27 +3,27 @@ services:
   raghu:
     image: bhaskarone/raghu:latest
     ports:
-      - "90:80"
+      - "80:80"
     deploy:
       replicas: 3
 
   varun:
     image:  bhaskarone/varun:latest
     ports:
-      - "91:80"
+      - "81:80"
     deploy:
       replicas: 3
 
   shiva:
     image:  bhaskarone/shiva:latest
     ports:
-      - "92:80"
+      - "82:80"
     deploy:
       replicas: 3
 
   gopal:
     image:  bhaskarone/gopal:latest
     ports:
-      - "93:80"
+      - "83:80"
     deploy:
       replicas: 3
